@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
             <Link href={`/posts/${id}`}>
               <a>{title}</a>
             </Link>
-            <h6 className={utilStyles.softText}>- "{description}"</h6>
+            <h6 className={utilStyles.softText}>- {description}</h6>
             <small className={utilStyles.lightText}>
               <Date dateString={date} />
             </small>
