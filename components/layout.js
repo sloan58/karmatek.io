@@ -42,8 +42,8 @@ export default function Layout({ children, home }) {
                 <span className={`${styles.logoText}`}>Create</span>
             </small>
             <hr/>
-            {''}
-            <small className={utilStyles.lightText}>info@karmatek.io | +12028055054</small>
+            {/* {''} */}
+            <small className={utilStyles.contactText}>info@karmatek.io | +12028055054</small>
           </>
       </header>
       <main>{children}</main>

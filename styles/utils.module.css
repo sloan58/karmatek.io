@@ -54,6 +54,12 @@
   text-align: center;
 }
 
+.contactText {
+  color: #999;
+  text-align: center;
+  margin-top: -20px;
+}
+
 .softText {
   color: rgb(121, 117, 117);
   text-align: center;
