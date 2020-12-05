@@ -16,9 +16,12 @@
 }
 
 .headingLg {
-  font-size: 1.5rem;
-  line-height: 1.4;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1;
   margin: 1rem 0;
+  color: rgb(176, 38, 44);
 }
 
 .headingMd {
@@ -47,6 +50,8 @@
 
 .listItem {
   margin: 0 0 1.25rem;
+  padding: 0.5rem;
+  list-style-position: inside;
 }
 
 .lightText {
